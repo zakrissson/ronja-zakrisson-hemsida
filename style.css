@@ -65,21 +65,24 @@ p {
   
 }
 
-.galleri {
+.galleri2 {
   display: flex;
   flex-wrap: wrap;
+  gap: 3%;
+  margin-top: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
   align-items: stretch;
 }
 
 .bildobjekt {
   display: flex;
-  justify-content: space-between;
-  align-items: stretch;
+  justify-content:space-evenly;
+  align-items:stretch;
 }
 
 .bildobjekt img {
-  margin: 2%;
-  width: 29%;
-  height: 200%;
-  justify-content: space-between;
+  width: 30%;
+  height: auto;
+  justify-content: space-evenly;
 }
