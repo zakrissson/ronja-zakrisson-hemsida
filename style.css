@@ -62,7 +62,16 @@ h3:hover + .sub-menu {
 }
 
 p {
-  
+  border: 3px black solid;
+  align-items: stretch;
+  justify-content: space-around;
+  margin-left: 450px;
+  margin-top: 10px;
+  margin-right: 450px;
+}
+
+p2 {
+
 }
 
 .bildobjekt {
@@ -94,10 +103,13 @@ p {
 position:fixed;
 background-color: black;
 color: white;
+display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 left: 0;
 bottom: 0;
 width: 100%;
 justify-content: space-evenly;
+text-decoration: none;
 }
 
