@@ -65,16 +65,6 @@ p {
   
 }
 
-.galleri2 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3%;
-  margin-top: 1%;
-  margin-left: 3%;
-  margin-right: 3%;
-  align-items: stretch;
-}
-
 .bildobjekt {
   display: flex;
   justify-content:space-evenly;
@@ -84,5 +74,30 @@ p {
 .bildobjekt img {
   width: 30%;
   height: auto;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
+
+.bildobjekt2 {
+  display: flex;
+  justify-content:space-evenly;
+  align-items:stretch;
+}
+
+.bildobjekt2 img {
+  margin-top: 10%;
+  width: 30%;
+  height: auto;
+  justify-content: space-between;
+}
+
+.footer {
+position:fixed;
+background-color: black;
+color: white;
+flex-direction: row;
+left: 0;
+bottom: 0;
+width: 100%;
+justify-content: space-evenly;
+}
+
