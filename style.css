@@ -70,8 +70,17 @@ p {
   margin-right: 450px;
 }
 
-p2 {
+.p2 {
+display: flex;
+flex-direction: column;
+position: fixed;
+}
 
+.p3 {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  fill: black;
 }
 
 .bildobjekt {
@@ -112,4 +121,3 @@ width: 100%;
 justify-content: space-evenly;
 text-decoration: none;
 }
-
