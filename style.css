@@ -79,9 +79,28 @@ position: fixed;
 
 .p3 {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  position: fixed;
-  fill: black;
+}
+
+.p4 {
+  margin-top: 100px;
+}
+
+.p5 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.p6 {
+
+}
+
+.p7 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .bildobjekt {
