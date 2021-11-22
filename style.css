@@ -62,45 +62,17 @@ h3:hover + .sub-menu {
   text-decoration:underline;
 }
 
-p {
-  border: 3px black solid;
-  align-items: stretch;
-  justify-content: space-around;
-  margin-left: 450px;
-  margin-top: 10px;
-  margin-right: 450px;
-}
 
-.p2 {
-display: flex;
+.p {
+display: inline-block;
 flex-direction: column;
 position: fixed;
 }
 
-.p3 {
-  display: flex;
+.p2 {
+  display: inline-block;
   flex-wrap: wrap;
   flex-direction: column;
-}
-
-.p4 {
-  margin-top: 100px;
-}
-
-.p5 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-.p6 {
-
-}
-
-.p7 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
 }
 
 .bildobjekt {
